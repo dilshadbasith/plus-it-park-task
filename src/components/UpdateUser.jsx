@@ -53,6 +53,7 @@ console.log(cookies["cookie-token"])
             value={name}
             onChange={(e) => setName(e.target.value)}
             className="w-full border rounded-md p-2 border-black"
+            placeholder="enter a new name"
             required
           />
         </div>
@@ -66,6 +67,7 @@ console.log(cookies["cookie-token"])
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             className="w-full border rounded-md p-2 border-black"
+            placeholder="enter a new password"
             required
           />
         </div>

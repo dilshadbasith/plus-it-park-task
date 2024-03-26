@@ -42,6 +42,7 @@ const Register = () => {
             value={name}
             onChange={(e) => setName(e.target.value)}
             className="w-full border rounded-md p-2 border-black"
+            placeholder="Enter your name"
             required
           />
         </div>
@@ -55,6 +56,7 @@ const Register = () => {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             className="w-full border rounded-md p-2 border-black"
+            placeholder="enter email"
             required
           />
         </div>
@@ -68,6 +70,7 @@ const Register = () => {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             className="w-full border rounded-md p-2 border-black"
+            placeholder="enter a password"
             required
           />
         </div>
