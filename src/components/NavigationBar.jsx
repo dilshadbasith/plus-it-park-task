@@ -12,7 +12,7 @@ import { toast } from "react-toastify";
 
 const NavigationBar = () => {
   const navigate=useNavigate()
-  const [removeCookie] = useCookies(['cookie-token']);
+  const [cookie,setCookie,removeCookie] = useCookies(['cookie-token']);
 
 
   const handleLogout = () => {

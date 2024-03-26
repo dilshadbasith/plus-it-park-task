@@ -5,7 +5,7 @@ import { useNavigate } from "react-router";
 import { toast } from "react-toastify";
 
 const DeleteUser= () => {
-  const [cookies] = useCookies(['cookie-token']);
+  const [cookies,setCookie] = useCookies(['cookie-token']);
   const navigate=useNavigate()
 
 

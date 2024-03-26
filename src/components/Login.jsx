@@ -8,7 +8,7 @@ const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const navigate =useNavigate()
-  const [setCookie] = useCookies(['cookie-token']);
+  const [cookies,setCookie] = useCookies(['cookie-token']);
 
   const handleSubmit = async (e) => {
     e.preventDefault();

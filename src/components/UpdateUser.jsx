@@ -7,7 +7,7 @@ import { useNavigate } from "react-router";
 const UpdateUser = () => {
   const [name, setName] = useState("");
   const [password, setPassword] = useState("");
-  const [cookies] = useCookies(['cookie-token']);
+  const [cookies,setCookie] = useCookies(['cookie-token']);
   const navigate=useNavigate()
 console.log(cookies["cookie-token"])
   const handleUpdateUser = async (e) => {
